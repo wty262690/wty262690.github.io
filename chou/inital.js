@@ -1,0 +1,5 @@
+var path = "./images/artwork/作品集";
+
+for (var i = 2; i<=112 ; i++){
+    $(".flipbook").append('<div><img src="'+path+i+'.jpg" alt="" /></div>');
+}
