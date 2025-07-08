@@ -4,6 +4,6 @@ $(window).on('load', function () {
 
 var path = "./images/artwork/作品集";
 
-for (var i = 2; i<=112 ; i++){
+for (var i = 2; i<=114 ; i++){
     $(".flipbook").append('<div><img src="'+path+i+'.jpg" alt="" /></div>');
 }
