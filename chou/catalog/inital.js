@@ -4,6 +4,6 @@ $(window).on('load', function () {
 });
 
 
-for (var i = 2; i<=112 ; i++){
+for (var i = 2; i<=114 ; i++){
     $(".flipbook").append('<div><img src="'+path+i+'.jpg" alt=""  loading="lazy" /></div>');
 }
