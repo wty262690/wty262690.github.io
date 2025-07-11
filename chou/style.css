@@ -69,3 +69,14 @@ body {
     margin-bottom: 10px;
 }
 */
+
+
+.img, .img img{
+    display: inline-block;
+    width: 50vw;
+    height: auto;
+}
+
+#front_cover, #back_cover{
+    width: 100vw;
+}

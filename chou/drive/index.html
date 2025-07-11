@@ -7,14 +7,21 @@
   <link rel="stylesheet" href="../style.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>周淑雲作品集</title>
+  <style>
+    body {
+      display: block;
+      overflow: scroll;
+      overflow-x: hidden;
+    }
+  </style>
 </head>
 
 <body>
   <div id = "loading">...loading...</div>
-
-  <script>
-    window.location.href = "https://drive.google.com/file/d/1E6-Qtkh-AyCGsNfK93f8-quuIpsoYo3-/view?usp=drivesdk";
-  </script>
+  <div class = "content">
+    <div class = "img" ><img id= "front_cover" src="../images/front.jpg" alt=""  loading="lazy" /></div>
+  </div>
+  <script src="./inital.js"></script>  
 </body>
 
 </html>
