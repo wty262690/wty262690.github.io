@@ -2,20 +2,22 @@ let camera = (c) => {
   let capture;
   let edgeImg;
   let videoBuffer;
-
+  let shrinked;
   c.setup = () => {
-    c.maxwindowsize = c.min(c.windowWidth, c.windowHeight)  
-    let cnv = c.createCanvas(c.windowWidth, c.windowHeight);
+    c.frameRate(8); 
+    c.maxwindowsize = c.min(c.windowHeight, c.windowHeight)  
+    let cnv = c.createCanvas(c.windowHeight, c.windowHeight);
     cnv.parent('sketch-camera');
-
     
     capture = c.createCapture(c.VIDEO);
-    capture.size(c.windowWidth, c.windowWidth/2*1.5);
+    capture.size(c.windowHeight/1.8, (c.windowHeight/2*1.5)/1.8);
     capture.hide();
 
     c.pixelDensity(1); 
     videoBuffer = c.createGraphics(capture.width, capture.height);
     edgeImg = c.createImage(capture.width, capture.height);
+    shrinked = c.createGraphics(edgeImg.width, edgeImg.height);
+
   };
 
   c.draw = () => {
@@ -27,10 +29,9 @@ let camera = (c) => {
     
     if (videoBuffer.pixels.length > 0) {
 
-      let shrinked = c.createGraphics(edgeImg.width, edgeImg.height);
       shrinked.push();
       shrinked.translate(edgeImg.width / 2, edgeImg.height / 2);
-      shrinked.scale(0.95);
+      shrinked.scale(0.8);
       shrinked.imageMode(c.CENTER);
       shrinked.image(edgeImg, 0, 0);
       shrinked.pop();
@@ -39,7 +40,7 @@ let camera = (c) => {
 
       c.detectEdges(videoBuffer);
       c.imageMode(c.CENTER);
-      c.image(edgeImg, c.windowWidth/2,c.windowHeight/2);
+      c.image(edgeImg, c.windowHeight/2,c.windowHeight/2);
     } else {
       c.fill(0);
       c.textSize(24);
