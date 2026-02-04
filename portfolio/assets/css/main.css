@@ -97,6 +97,7 @@ h6 {
 }
 .persons{
   color: rgb(199, 164, 119);
+  font-weight: bold;
 }
 
 /* PHP Email Form Messages
@@ -909,6 +910,11 @@ section,
   font-size: 14px;
   margin-bottom: 0rem;
   width: 20%;
+}
+.persons img{
+  height: 25px;
+  margin-bottom: 4px;
+  margin-right: -5px;
 }
 .portfolio .portfolio-content .portfolio-info .persons img{
   height: 18px;

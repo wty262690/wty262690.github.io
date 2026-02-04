@@ -1,0 +1,16 @@
+main{
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: var(--background-color);;
+}
+
+main .title{
+    font-size: 40px;
+}
+main .subtitle{
+    font-size: 20px;
+}
