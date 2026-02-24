@@ -1,0 +1,10 @@
+.comic-block{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.comic-block img{
+    width: 100%;
+    max-width: 800px;
+}

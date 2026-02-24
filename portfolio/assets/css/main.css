@@ -873,6 +873,7 @@ section,
 }
 
 .portfolio .portfolio-content {
+  border-radius: 20px;
   position: relative;
   overflow: hidden;
 }

@@ -13,7 +13,7 @@ const details = {
     project_desc: "Building upon the story of <a >The Doll</a>, the game features various levels that challenge players ́ puzzle-solving and movement skills. Players must control a small doll navigating and running between towering pieces of furniture, avoid traps, and escape.",
     project_desc2: "<strong>SCENE DESIGN</strong>" +"<br>"+ " The game includes five main levels, one tutorial level, and one challenge level.",
     project_desc3: "<strong>SKILL & ANIMATION DESIGN</strong>" +"<br>"+  "We design that players can throw hairpins and teleport to the location where the pin lands or swap positions with the object it strikes.",
-    project_col:"<strong>Collaboration</strong>" +"<br>"+ "In this project, I collaborated with three classmates from the Department of Computer Science and took on the role of game art designer, responsible for: <ul class='py-3'> <li>Visual design and illustration.</li> <li>Asset creation, character rigging, and animation development.</li><li>Design props and mechanisms for each level.</li><li>Conceptualizing the script.</li><ul/>",
+    project_col:"<strong>COLLABORATION</strong>" +"<br>"+ "In this project, I collaborated with three classmates from the Department of Computer Science and took on the role of game art designer, responsible for: <ul class='py-3'> <li>Visual design and illustration.</li> <li>Asset creation, character rigging, and animation development.</li><li>Design props and mechanisms for each level.</li><li>Conceptualizing the script.</li><ul/>",
     persons: html_person + 4,
   },
   THE_DOLL: {
@@ -70,6 +70,27 @@ const details = {
     +  "<li>Animation & Transitions: Designing animation effects and transition sequences.</li></ul>",
     persons: html_person + 4,
   },
+  WalpurgisNight:{
+    project_title: "Walpurgis Night",
+    Capital_title: "WALPURGIS NIGHT",
+    Category: "Vertical comic",
+    Date: "2020-",
+    project_desc2:     "<img src='../image/work/comic/night/17.jpg' style='width: 100%;'>",
+    project_desc3: "<strong>COLLABORATION</strong>" 
+    +"<br>"+  "I have collaborated with the writer 兀心 as a manga artist.",
+    persons: html_person + 2,
+  },
+  DreamShoppingStreet:{
+    project_title: "Dream Shopping Street",
+    Capital_title: "DREAM SHOPPING STREET",
+    Category: "Horizontal comic",
+    project_desc2: "<img src='../image/work/comic/shop/p.JPG' style='width: 40%;'>"
+    +"<img src='../image/work/comic/shop/p1-2.JPG' style='width: 60%;'>",
+    project_desc3: "<strong>COLLABORATION</strong>" 
+    +"<br>"+  "I have collaborated with the writer 闇夜星河 as a manga artist."
+    +"<img src='../image/work/comic/shop/p3.JPG' style='width: 80%; margin-left: 20%'>",
+    persons: html_person + 2,
+  }
 };
 const images = {
   THE_PUPPET: [
@@ -100,7 +121,19 @@ const images = {
     "../image/work/VR/shadow/poster.png",
     "../image/work/VR/shadow/Detail0.png",
     "../image/work/VR/shadow/Detail1.png",
-  ]
+  ],
+  WalpurgisNight:[
+    "../image/work/comic/night/16-7.png",
+    "../image/work/comic/night/13.jpg",
+    "../image/work/comic/night/smoke.png",
+  ],
+  DreamShoppingStreet:[
+    "../image/work/comic/shop/1-10.png",
+    "../image/work/comic/shop/02.png",
+    "../image/work/comic/shop/03.png",
+    "../image/work/comic/shop/04-2.png",
+    "../image/work/comic/shop/18.png",
+  ],
 }
 const links = {
   THE_PUPPET: [
@@ -137,6 +170,18 @@ const links = {
     {   icon: 24,
         text: "Instroction",
         link: "https://youtu.be/DwOdR4v9kDM"},
+  ],
+  WalpurgisNight: [{
+    icon: 24,
+    text: "Original Text of Author 兀心",
+    link: "https://www.penana.com/story/65866/%E6%87%89%E8%A9%B2%E7%B3%BB%E5%89%B5%E4%BD%9C%E6%8C%91%E6%88%B0%E5%90%A7/issue/11",
+    }
+  ],
+  DreamShoppingStreet: [{
+    icon: 25,
+    text: "Book of Author 闇夜星河",
+    link: "https://reading.udn.com/store/store/store_product.do?pid=148783",
+    }
   ],
 }
 
