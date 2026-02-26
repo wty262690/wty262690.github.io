@@ -90,6 +90,29 @@ const details = {
     +"<br>"+  "I have collaborated with the writer 闇夜星河 as a manga artist."
     +"<img src='../image/work/comic/shop/p3.JPG' style='width: 80%; margin-left: 20%'>",
     persons: html_person + 2,
+  },
+  ACG:{
+    project_title: "ACG academic club",
+    Capital_title: "ACG ACADEMIC CLUB",
+    Category: "illustration, bookcover, booth sign",
+    project_desc2: "<img src='../image/work/illustration/digital/character.JPG' style='width: 100%;'>",
+    project_desc3: "<strong>COLLABORATION</strong>" + 
+    "<br>" + "I served as the graphic design officer in the ACG (Anime, Comics, and Games) Academic Club at NTHU, responsible for creating promotional materials and output products." 
+  },
+  riverfall:{
+    project_title: "Couple profile picture commission",
+    Capital_title: "COUPLE PROFILE PICTURE",
+    Category: "commission, illustration, profile picture",
+    project_desc2: "<img src='../image/work/illustration/digital/couple_draft.png' style='width: 100%;'>",
+    project_desc3: "<strong>COMMISSION</strong>" + 
+    "<br>" + "I was responsible for handling the commission of 疑是銀河落九天 for the client, creating avatars based on two pre-established characters." 
+  },
+  tea:{
+    project_title: "Illustration commission",
+    Capital_title: "ILLUSTRATION PICTURE",
+    Category: "commission, illustration, handdraw",
+    project_desc3: "<strong>COMMISSION</strong>" + 
+    "<br>" + "I was commissioned to create a colored pencil illustration for a tea product." 
   }
 };
 const images = {
@@ -133,6 +156,23 @@ const images = {
     "../image/work/comic/shop/03.png",
     "../image/work/comic/shop/04-2.png",
     "../image/work/comic/shop/18.png",
+  ],
+  ACG:[
+    "../image/work/illustration/digital/cover-withouword.png",
+    "../image/work/illustration/digital/project-cover.png",
+    "../image/work/illustration/digital/board.png",
+  ],
+  riverfall:[
+    "../image/work/illustration/digital/couple4-02.png",
+    "../image/work/illustration/digital/couple4-03.png",
+    "../image/work/illustration/digital/couple3.png",
+    "../image/work/illustration/digital/couple3-1.png",
+    "../image/work/illustration/digital/couple3-2.png",
+  ],
+  tea:[
+    "../image/work/illustration/owner/1.png",
+    "../image/work/illustration/owner/2_1x1.png",
+    "../image/work/illustration/owner/6.png",
   ],
 }
 const links = {
@@ -183,6 +223,20 @@ const links = {
     link: "https://reading.udn.com/store/store/store_product.do?pid=148783",
     }
   ],
+  ACG: [{
+    icon: 26,
+    text: "NTHU ACG academic club Facebook",
+    link: "https://www.facebook.com/nthu.acgacademic",
+    }
+  ],
+  riverfall: [{
+    icon: 26,
+    text: "commission page",
+    link: "https://illustbuy.com/job/hQBk37YNh",
+    }
+  ],
+  tea: [],
+  note: [],
 }
 
 window.addEventListener("load", function () {
