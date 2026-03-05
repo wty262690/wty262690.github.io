@@ -113,7 +113,20 @@ const details = {
     Category: "commission, illustration, handdraw",
     project_desc3: "<strong>COMMISSION</strong>" + 
     "<br>" + "I was commissioned to create a colored pencil illustration for a tea product." 
-  }
+  },
+  AIFortuneTelling:{
+    project_title: "AI Fortune Telling",
+    Capital_title: "AI FORTUNE TELLING",
+    Category: "Interactive Art, Interactive Web, machine learning",
+    Date: "2025.1",
+    Equipment:"<strong>Language</strong> ml5.js, HTML, CSS, JS, Arduino",
+    Interaction:"<strong>Technology</strong> Web Crawler, Machine Learning",
+    project_desc: "The project use facial recognition technology to obtain accurate label data, helping viewers gain insights and define their life and future",
+    project_desc3: "The project uses a web crawler to collect images of people based on keywords searched on Google. It extracts facial features to build a machine learning database. The extracted objects are then used in machine learning with ml5.js, where users can capture their own facial image on the website as input to receive corresponding labels. This process is similar to fortune-telling, where users go through a series of ritualistic questions and actions to receive labels and life advice generated from those labels."
+    +"<br>"+"<br>"+"Additionally, the project integrates Arduino hardware, giving the computer a tangible form. This includes an eyeball that moves according to the user's face position, creating the illusion of it staring at the user and speaking to them. A mouth continuously provides advice, and this endless interaction, combined with the visual aspects, blurs the line between machinery and humanity",
+    project_desc2: "<strong>INSPIRATION</strong>" + 
+    "<br>" + "The object recognition algorithms in AI seem to me like a form of fortune-telling. Through complex mathematical calculations and data analysis of vast amounts of information, these algorithms reveal the nature of an entity, its characteristics, and even whether it's a human or just an object." 
+  },
 };
 const images = {
   THE_PUPPET: [
@@ -173,6 +186,10 @@ const images = {
     "../image/work/illustration/owner/1.png",
     "../image/work/illustration/owner/2_1x1.png",
     "../image/work/illustration/owner/6.png",
+  ],
+  AIFortuneTelling:[
+    "../image/work/web/AIFortuneTelling2/cover.png",
+    "../image/work/web/AIFortuneTelling2/1.png",
   ],
 }
 const links = {
@@ -237,6 +254,16 @@ const links = {
   ],
   tea: [],
   note: [],
+  AIFortuneTelling: [{
+    icon: 26,
+    text: "Website",
+    link: "https://wty262690.github.io/FortuneTelling/",
+    },
+    {
+    icon: 24,
+    text: "Video",
+    link: "https://youtu.be/R-jVdJHtAUk",
+    }]
 }
 
 window.addEventListener("load", function () {
