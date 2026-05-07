@@ -38,7 +38,10 @@
 }
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
+.white-background {
+  --background-color: white;
 
+}
 .light-background {
   --background-color: rgb(236, 227, 214);
   --surface-color: #ffffff;
